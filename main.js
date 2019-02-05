@@ -28,3 +28,21 @@ var nesting = (function(){
 })();
 
 cl( nesting(obj1) );
+
+function Coffee(){
+    var waterAmount = 0;
+
+    this.waterAmount = function(amount){
+        if(!arguments.length){
+            return waterAmount;
+        }
+        if(amount<0){
+            throw new Error("Error!");
+        }
+        waterAmount = amount;
+    }
+}
+
+var cup = new Coffee()
+cup.waterAmount();
+cl(cup.waterAmount() )
