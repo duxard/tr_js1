@@ -43,6 +43,6 @@ function Coffee(){
     }
 }
 
-var cup = new Coffee()
+var cup = new Coffee();
 cup.waterAmount();
-cl(cup.waterAmount() )
+cl(cup.waterAmount() );
