@@ -73,9 +73,6 @@ window.onload = function(){
         }else{
             cl(inputState = false)
         }
-
-        
-
     });
 
 

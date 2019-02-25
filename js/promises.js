@@ -1,5 +1,6 @@
 window.addEventListener('load', function(){
     const cl = console.log;
+    cl("**************");
     let zoo = [];
 
     function getClass(obj){
